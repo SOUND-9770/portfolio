@@ -51,7 +51,7 @@ li {
 }
 
 .rotate {
-	animation:rotate 2s;
+	animation:rotate 2s　infinite;
 }
 
 .section:nth-of-type(odd) {
