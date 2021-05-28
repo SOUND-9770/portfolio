@@ -40,14 +40,14 @@ li {
   padding: 90px 0;
 }
 
+.section img {
+	animation: rotate 2s linear infinite;
+}
+
 @keyframes rotate {
 	100% {
 	transform:rotateY(360deg);
 	}
-}
-
-.rotate {
-	animation:rotate 2s　infinite;
 }
 
 .section:nth-of-type(odd) {
