@@ -40,6 +40,10 @@ li {
   padding: 90px 0;
 }
 
+.section img{
+	transform: rotateY(180deg);
+}
+
 .section:nth-of-type(odd) {
   background-color: #f7f7f7;
 }
@@ -307,5 +311,6 @@ li {
   .footer {
     padding: 20px;
   }
+
 
 }
